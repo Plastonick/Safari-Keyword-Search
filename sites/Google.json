@@ -1,0 +1,16 @@
+{
+    "key": "g",
+    "pattern": "https://www.google.com/search?q=@@@",
+	"default": "https://www.google.com/",
+    "suggest": {
+        "url": "http://suggestqueries.google.com/complete/search?output=toolbar&hl=en&q=@@@",
+		"format": "xml",
+        "results": [
+            "CompleteSuggestion",
+            true,
+			"suggestion",
+			"@attributes",
+			"data"
+        ]
+    }
+}

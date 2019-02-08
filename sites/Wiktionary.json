@@ -1,0 +1,12 @@
+{
+    "key": "wt",
+    "pattern": "https://en.wiktionary.org/w/index.php?search=@@@",
+    "suggest": {
+        "url": "https://en.wiktionary.org/w/api.php?action=opensearch&format=json&formatversion=2&search=@@@&namespace=0&limit=10&suggest=true",
+		"format": "json",
+        "results": [
+            1,
+            true
+        ]
+    }
+}

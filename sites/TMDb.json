@@ -1,0 +1,13 @@
+{
+    "key": "tmdb",
+    "pattern": "https://www.themoviedb.org/search?query=@@@",
+	"suggest": {
+		"url": "https://www.themoviedb.org/search/multi?language=en-US&query=@@@",
+		"format": "json",
+		"results": [
+			"results",
+			true,
+			{ "filter": "string" }
+		]
+	}
+}

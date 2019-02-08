@@ -1,0 +1,13 @@
+{
+    "key": "imdb",
+    "pattern": "https://duckduckgo.com/?q=!ducky+@@@+site%3Aimdb.com",
+	"suggest": {
+		"url": "https://www.themoviedb.org/search/multi?language=en-US&query=@@@",
+		"format": "json",
+		"results": [
+			"results",
+			true,
+			{ "filter": "string" }
+		]
+	}
+}

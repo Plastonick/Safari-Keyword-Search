@@ -1,0 +1,13 @@
+{
+    "key": "ma",
+    "pattern": "https://memory-alpha.fandom.com/wiki/Special:Search?query=@@@",
+	"default": "https://memory-alpha.fandom.com/wiki/Portal:Main",
+	"suggest": {
+		"url": "https://memory-alpha.fandom.com/index.php?action=ajax&rs=getLinkSuggest&format=json&query=@@@",
+		"format": "json",
+		"results": [
+			"suggestions",
+			true
+		]
+	}
+}

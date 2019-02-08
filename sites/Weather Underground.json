@@ -1,0 +1,4 @@
+{
+    "key": "wu",
+    "pattern": "http://www.wunderground.com/cgi-bin/findweather/getForecast?query=@@@"
+}

@@ -1,0 +1,4 @@
+{
+    "key": "osm",
+    "pattern": "https://www.openstreetmap.org/search?query=@@@"
+}
