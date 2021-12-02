@@ -1,4 +1,4 @@
 {
     "key": "th",
-    "pattern": "http://www.thesaurus.com/search?q=@@@"
+    "pattern": "http://www.thesaurus.com/browse/@@@"
 }
